@@ -21,6 +21,6 @@ Important keep the linkname consistent with the name of the MongoDB container ab
 Start the HabitRPG container and link it with the MongoDB node `habitrpg-mongo`.
 
 ```
-docker run --name habitrpg --link habitrpg-mongo:db -d -p 3000:3000 uvwxy/habitrpg
+docker run --name habitrpg --link habitrpg-mongo:db -p 3000:3000 -d uvwxy/habitrpg
 ```
 
